@@ -42,7 +42,7 @@ const ChatRow = ({ id }: Props) => {
       className={`chatRow justify-center ${active && "bg-gray-500"}`}
     >
       <ChatBubbleLeftIcon className="h-5 w-5" />
-      <p className="flex-1 hidden md:inline-flex truncate">
+      <p className="flex-1 truncate">
         {messages?.docs[messages?.docs.length - 1]?.data().text || "New chat"}
       </p>
       {/* <PencilSquareIcon className="h-5 w-6 text-gray-700 hover:text-white" /> */}
