@@ -45,7 +45,7 @@ const page = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mb-8">
           <div className="flex flex-col items-center justify-center mb-5">
             <ExclamationTriangleIcon className="h-8 w-8" />
             <h2>Limitations</h2>
