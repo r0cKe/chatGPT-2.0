@@ -9,7 +9,7 @@ import ChatRow from "./ChatRow";
 import ModelSelection from "./ModelSelection";
 import { useEffect, useState } from "react";
 import {
-  ArrowLeftOnRectangleIcon,
+  ArrowRightOnRectangleIcon,
   Bars3Icon,
 } from "@heroicons/react/24/outline";
 import { XMarkIcon } from "@heroicons/react/24/solid";
@@ -41,7 +41,6 @@ const Sidebar = () => {
         orderBy("createdAt", "asc")
       )
   );
-  // console.log(chats);
   return (
     <div
       className={`p-2 flex gap-5 md:flex-col md:h-screen ${
@@ -102,7 +101,7 @@ const Sidebar = () => {
               window.innerWidth < 768 && "bg-[#11A37F] text-white border-none"
             }`}
           >
-            <ArrowLeftOnRectangleIcon className="h-6 w-6" />
+            <ArrowRightOnRectangleIcon className="h-6 w-6 rotate-180" />
             {window.innerWidth >= 768 ? "Log out" : ""}
           </button>
         </div>
