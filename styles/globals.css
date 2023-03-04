@@ -8,6 +8,6 @@
     }
 
     .chatRow {
-        @apply rounded-lg p-3 mb-2 text-sm flex items-center space-x-3 hover:bg-gray-700/70 cursor-pointer text-white
+        @apply rounded-lg p-3 mb-2 text-sm flex items-center space-x-3 hover:bg-gray-700 cursor-pointer text-white
     }
 }

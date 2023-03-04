@@ -12,7 +12,7 @@ const page = () => {
         ChatGPT
       </h1>
 
-      <div className="flex flex-col md:flex-row space-x-5 text-center">
+      <div className="flex flex-col md:flex-row space-x-0 md:space-x-5 text-center">
         <div className="mb-8">
           <div className="flex flex-col items-center justify-center mb-5">
             <SunIcon className="h-8 w-8" />

@@ -21,6 +21,7 @@ const NewChat = ({setShow} : Props) => {
       {
         userId: session?.user?.email!,
         createdAt: serverTimestamp(),
+        name: "New chat"
       }
     );
     router.push(`/chat/${doc.id}`);
