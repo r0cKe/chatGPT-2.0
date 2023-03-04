@@ -95,7 +95,7 @@ const ChatRow = ({ id, setShow }: Props) => {
         <p className={`flex-1 truncate close`}>{chatName}</p>
       )}
 
-      <div className="flex gap-2">
+      <div className={`${!active && "hidden"} flex gap-2`}>
         <PencilSquareIcon
           onClick={() => {
             if (!editable) {
